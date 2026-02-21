@@ -18,3 +18,25 @@ struct Athlete {
         }
     }
 };
+
+//add two functions to get data and show data
+void getData (Athlete *a, int num);
+void showData (Athlete *a, int num);
+
+int main(){
+    //define the number of athletes and times
+    int AthleteNum;
+    int TimeNum;
+    cout << "Enter the number of athletes: ";
+    cin >> AthleteNum;
+    cout << "Enter the number of times for each athlete: ";
+    cin >> TimeNum;
+}
+
+void getData (Athlete *a, int num) {
+
+}
+    
+void showData (Athlete *a, int num) {
+
+}
