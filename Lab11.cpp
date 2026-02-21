@@ -34,9 +34,13 @@ int main(){
 }
 
 void getData (Athlete *a, int num) {
-
+    cout << "Enter name: ";
+    getline(cin, a->name);
+    cout << "Enter athlete number: ";
+    cin >> a->number;
 }
     
 void showData (Athlete *a, int num) {
-
+    cout << "Name: " << a->name << endl;
+    cout << "Athlete number: " << a->number << endl;
 }
