@@ -41,7 +41,9 @@ int main(){
     for (int i = 0; i < AthleteNum; i++) {
         showData(&roster[i], TimeNum);
     }
-
+    //delete the roster array, which will also call the destructor for each Athlete
+    delete[] roster;
+    return 0;
 }
 
 void getData (Athlete *a, int num) {
